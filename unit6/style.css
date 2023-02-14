@@ -1,0 +1,41 @@
+html, body {
+  height: 98%;
+  width: 99%;
+}
+
+body {
+  background-image: url("backgroundImages/project6-1.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.main-element {
+  background-color: darkturquoise;
+  color: black;
+  width: 700px;
+}
+
+.image-height {
+  height: 300px;
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+li.list-markers {
+  list-style-image: url("backgroundImages/tiny.gif");
+}
+
+#borderimg {
+  border: 30px solid;
+  border-image-slice: 80 80;
+  border-image-source: url("backgroundImages/border.gif");
+}
+
+li.no-marker{
+  list-style-type: none;
+ }
